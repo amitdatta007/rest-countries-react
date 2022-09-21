@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.country{
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    border: 3px solid slateblue;
+    border-radius: 12px;
+}
+.country > img, .country-info{
+  width: 100%;
+}
+.country-info{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: slateblue;
+}
+.country-info > h3{
+  font-size: 1.5rem;
+}
+.country-info > h4{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
